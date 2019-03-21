@@ -1,7 +1,7 @@
 package main
 
 import (
-    "github.com/cznic/mathutil"
+    "modernc.org/mathutil"
     "bufio"
     "fmt"
     "os"
