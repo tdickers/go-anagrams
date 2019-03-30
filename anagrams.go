@@ -15,7 +15,7 @@ func main() {
     dictionary = make(map[string]bool)
     loadDictionary("words.txt")
     
-    words := [3]string{"BASHLACK", "MUSTRANT", "NOSYSHIP"}
+    words := os.Args[1:]
     
     for _, word := range words {
         permuteChars(word)
